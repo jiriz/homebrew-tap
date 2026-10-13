@@ -1,11 +1,13 @@
 cask "zcommander" do
-  version "26.002.112"
-  sha256 "21de67d098d6fcce4c1b5b4bc253e1c5209d035f50e00451964360aeda2a6dad"
+  version "26.002.113"
+  sha256 "03b049cb98d5f3acdfa4928452c6a40cf07acfb7f1127eb42113aab5fd634376"
 
   url "https://www.zasgroup.cz/files/zc/#{version}/zCommander.app.zip"
-  name "zCommander"
+  name "DuoPane"
   desc "Two-pane file manager for macOS with a built-in editor (Finder and Total Commander style)"
-  homepage "https://www.zasgroup.cz/"
+  homepage "https://duopane.app/"
+
+  deprecate! date: "2026-10-14", because: "it was renamed to DuoPane", replacement_cask: "duopane"
 
   livecheck do
     url "https://www.zasgroup.cz/files/zc/update.json"
@@ -16,7 +18,7 @@ cask "zcommander" do
 
   depends_on macos: ">= :ventura"
 
-  app "zCommander.app"
+  app "DuoPane.app"
 
   zap trash: [
     "~/Library/Application Support/zCommander",

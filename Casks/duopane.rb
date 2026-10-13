@@ -1,0 +1,24 @@
+cask "duopane" do
+  version "26.002.113"
+  sha256 "03b049cb98d5f3acdfa4928452c6a40cf07acfb7f1127eb42113aab5fd634376"
+
+  url "https://www.zasgroup.cz/files/zc/#{version}/zCommander.app.zip"
+  name "DuoPane"
+  desc "Two-pane file manager for macOS with a built-in editor (Finder and Total Commander style)"
+  homepage "https://duopane.app/"
+
+  livecheck do
+    url "https://www.zasgroup.cz/files/zc/update.json"
+    strategy :json do |json|
+      json["version"]
+    end
+  end
+
+  depends_on macos: ">= :ventura"
+
+  app "DuoPane.app"
+
+  zap trash: [
+    "~/Library/Application Support/zCommander",
+  ]
+end
