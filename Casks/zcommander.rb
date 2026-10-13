@@ -1,6 +1,6 @@
 cask "zcommander" do
-  version "26.002.109"
-  sha256 "5ce2c5219df462afcf6e55f9ac7a210df1bd2017eb8d2ec2d4f17adcb835a98d"
+  version "26.002.110"
+  sha256 "9c58cc468c8a0b5610148a1b0c5b2875e6d548d4e19f3b552e48c36e9b296d1a"
 
   url "https://www.zasgroup.cz/files/zc/#{version}/zCommander.app.zip"
   name "zCommander"
