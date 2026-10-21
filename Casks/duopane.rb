@@ -1,6 +1,6 @@
 cask "duopane" do
-  version "26.002.121"
-  sha256 "07020e2fa89ad780844947cf2d9d902ca57f39b5368f10adf8f63563715ef421"
+  version "26.002.122"
+  sha256 "399e0e35a9f76ca0dcb33aab41da15287b0563e67b8cd4900e31ba97d75aaaa1"
 
   url "https://www.zasgroup.cz/files/zc/#{version}/DuoPane.app.zip"
   name "DuoPane"
