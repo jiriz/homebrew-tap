@@ -1,8 +1,8 @@
 cask "zcommander" do
-  version "26.002.120"
-  sha256 "a9b40397e220b7fc93014ae0fbe85e7b5123486fb65741e7d09c89cd7afa4bed"
+  version "26.002.121"
+  sha256 "07020e2fa89ad780844947cf2d9d902ca57f39b5368f10adf8f63563715ef421"
 
-  url "https://www.zasgroup.cz/files/zc/#{version}/zCommander.app.zip"
+  url "https://www.zasgroup.cz/files/zc/#{version}/DuoPane.app.zip"
   name "DuoPane"
   desc "Two-pane file manager for macOS with a built-in editor (Finder and Total Commander style)"
   homepage "https://duopane.app/"
