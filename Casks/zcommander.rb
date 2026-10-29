@@ -16,7 +16,7 @@ cask "zcommander" do
     end
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "DuoPane.app"
 
