@@ -1,9 +1,12 @@
-# ZAS Group Homebrew tap
+# DuoPane Homebrew tap
+
+[DuoPane](https://duopane.app/) – a two-pane file manager for macOS with a built-in editor.
 
 ```bash
-brew install --cask jiriz/tap/zcommander
+brew install --cask jiriz/tap/duopane
 ```
 
-Later versions arrive with `brew upgrade`. The cask installs the same notarized
-`zCommander.app` that is published at https://www.zasgroup.cz/files/zc/ and is
-updated automatically by the zCommander release pipeline.
+Updates arrive with `brew upgrade --cask duopane` (the app also updates itself). The cask installs the same
+notarized `DuoPane.app` that is available at https://duopane.app/.
+
+The former `zcommander` cask is deprecated; it installs DuoPane under its new name.
