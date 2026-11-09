@@ -1,6 +1,6 @@
 cask "zcommander" do
-  version "26.002.157"
-  sha256 "2c0721fba006279ff918e217876b7409dd92694bfc02a805a6487a29e7839eb7"
+  version "26.002.158"
+  sha256 "99b71f7f5a904fabcc00624250f1883b4f8e2fece76a45be1b19c8305ac6e1c6"
 
   url "https://duopane.app/download.php?f=zip&v=#{version}"
   name "DuoPane"
