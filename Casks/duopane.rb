@@ -1,6 +1,6 @@
 cask "duopane" do
-  version "26.002.168"
-  sha256 "1cd1e314c2ba5ccbd34954449c37ebaa387ac543ff2cbd60804d8b027735c8b3"
+  version "26.002.169"
+  sha256 "fdb10f0393ea8f1c2225330b3d2d7e64d3c898349696468fc4bf8ccd8c7fccf9"
 
   url "https://duopane.app/download.php?f=zip&v=#{version}"
   name "DuoPane"
